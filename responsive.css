@@ -1,0 +1,133 @@
+@media screen and (min-width: 320px) and (max-width: 780px){
+    .logo img{
+        width: 25vw;
+        margin-left: -75px
+    }
+    .bar{
+        display: block;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    .list-items{
+        display: none;
+    }
+    .arthur{
+        flex-direction: column-reverse;
+        margin-left: 15px;
+        padding-bottom: 10px;
+    }
+    .arthur-left img{
+        width: 75vw;
+        transform: rotateY(3.142rad);
+        margin-left: 75px;
+        margin-top: -100px;
+    }
+    .arthur-right{
+        margin-top: 20px;
+        color: #fff;
+        width: 80vw;
+    }
+    
+    .arthur-right h1{
+        font-size: 45px;
+    }
+    .middle ::before{
+        display: none;
+    }
+    .boxes{
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+    }
+    .box{
+        width: 65vw;
+        height: 30vh;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .experience{
+        flex-direction: column;
+        margin-left: -100px;
+        margin-top: 5px;
+    }
+    .exp-left{
+        margin-top: 55px;
+        margin-left: 100px;
+        position: relative;
+        left: 50px;
+    }
+    .exp-left h1{
+        text-align: left;
+        color: var(--dark_red);
+        font-size: 100px;
+    }
+    .exp-left h2{
+        color: #fff;
+    }
+    .exp-right{
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 175px 175px;
+    }
+    .small-box{
+        width: 30vw;
+        height: 18vh;
+    }
+    .project{
+        margin-top: 20px;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .pro-left p{
+        width: 85vw;
+    }
+    .view{
+        margin-left: 10px;
+        background-color: var(--dark_red);
+    }
+    .big-boxes{
+        grid-template-columns: 220px 220px;
+        grid-template-rows: 300px 300px;
+        justify-content: left;
+        margin-left: 25px;
+    }
+    .box-img img{
+        width: 30vw;
+    }
+    .diff img{
+        height: 10.8vh;
+    }
+    .big-box h2{
+        font-size: 18px;
+    }
+    .big-box h3{
+        font-size: 15px;
+    }
+    .work{
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px 25px;
+        margin-top: 50px;
+        color: #fff;
+        padding: 30px 25px;
+        background-color: var(--mighty_gray);
+    }
+    .work-left h1{
+        font-size: 35px;
+        width: 85vw;
+    }
+    .work-left p{
+        width: 75vw;
+    }
+    .con{
+        margin-top: 25px;
+    }
+    .red-logo{
+        margin-left: 15px;
+    }
+    .red-logo img{
+        width: 15vw;
+    }
+    .social{
+        margin-left: 150px;
+    }
+}
